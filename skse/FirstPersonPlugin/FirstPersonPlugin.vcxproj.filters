@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\skse\GameAPI.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameBSExtraData.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameCamera.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameData.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameEvents.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameExtraData.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameFormComponents.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameForms.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameHandlers.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameMenus.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameObjects.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GamePathing.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameReferences.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameResources.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameRTTI.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameSettings.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameStreams.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameTypes.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\HashUtil.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDataStream.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDebugLog.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IErrors.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IFileStream.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiControllers.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiExtraData.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiGeometry.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiInterpolators.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiMaterial.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiNodes.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiObjects.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiProperties.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiRenderer.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiRTTI.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiSerialization.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiTextures.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiTypes.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\ScaleformAPI.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusArgs.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusNativeFunctions.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusVM.cpp">
+      <Filter>skse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actions.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Conditions.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="StringHelper.h" />
+    <ClInclude Include="Values.h" />
+    <ClInclude Include="GameMath.h">
+      <Filter>skse</Filter>
+    </ClInclude>
+    <ClInclude Include="GameValues.h">
+      <Filter>skse</Filter>
+    </ClInclude>
+    <ClInclude Include="Papyrus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="skse">
+      <UniqueIdentifier>{a8dadd5f-aa48-4c18-8032-8e6c2e58e19a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common_vc9", "..\common\common_vc9.vcxproj", "{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skse", "skse\skse.vcxproj", "{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstPersonPlugin", "FirstPersonPlugin\FirstPersonPlugin.vcxproj", "{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkyrimViveController", "SkyrimViveController\SkyrimViveController.vcxproj", "{B09997B6-620E-46E4-BAFF-68889CBE3371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Debug|Win32.Build.0 = Debug|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Release|Win32.ActiveCfg = Release|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Release|Win32.Build.0 = Release|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Template|Win32.ActiveCfg = Release|Win32
+		{20C6411C-596F-4B85-BE4E-8BC91F59D8A6}.Template|Win32.Build.0 = Release|Win32
+		{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}.Debug|Win32.Build.0 = Debug|Win32
+		{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}.Release|Win32.ActiveCfg = Release|Win32
+		{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}.Release|Win32.Build.0 = Release|Win32
+		{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}.Template|Win32.ActiveCfg = Release|Win32
+		{AA0365EC-47EA-45AA-BB1F-EBBCCCC466F2}.Template|Win32.Build.0 = Release|Win32
+		{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}.Debug|Win32.Build.0 = Debug|Win32
+		{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}.Release|Win32.ActiveCfg = Release|Win32
+		{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}.Release|Win32.Build.0 = Release|Win32
+		{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}.Template|Win32.ActiveCfg = Release|Win32
+		{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}.Template|Win32.Build.0 = Release|Win32
+		{B09997B6-620E-46E4-BAFF-68889CBE3371}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B09997B6-620E-46E4-BAFF-68889CBE3371}.Debug|Win32.Build.0 = Debug|Win32
+		{B09997B6-620E-46E4-BAFF-68889CBE3371}.Release|Win32.ActiveCfg = Release|Win32
+		{B09997B6-620E-46E4-BAFF-68889CBE3371}.Release|Win32.Build.0 = Release|Win32
+		{B09997B6-620E-46E4-BAFF-68889CBE3371}.Template|Win32.ActiveCfg = Release|Win32
+		{B09997B6-620E-46E4-BAFF-68889CBE3371}.Template|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\common\\common_vc9.vcproj
+		SccLocalPath1 = ..\\common
+		SccProjectUniqueName2 = loader_common\\loader_common.vcproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = loader_common\\
+		SccProjectUniqueName3 = skse\\skse.vcproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = skse\\
+		SccProjectUniqueName4 = skse_loader\\skse_loader.vcproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = skse_loader\\
+		SccProjectUniqueName5 = steam_loader\\steam_loader.vcproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = steam_loader\\
+		SccProjectUniqueName6 = plugin_example\\plugin_example.vcproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = plugin_example\\
+		SccProjectUniqueName7 = steam_boot\\steam_boot.vcproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = steam_boot\\
+	EndGlobalSection
+EndGlobal

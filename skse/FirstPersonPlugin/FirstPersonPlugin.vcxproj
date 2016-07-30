@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{78F9ECA9-03FF-4324-8A8D-A2810C44FA23}</ProjectGuid>
+    <RootNamespace>FirstPersonPlugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ForcedIncludeFiles>common/IPrefix.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\..;$(SolutionDir)SkyrimViveController</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SkyrimViveController.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ForcedIncludeFiles>common/IPrefix.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\..;$(SolutionDir)SkyrimViveController</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SkyrimViveController.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Actions.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Conditions.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="GameMath.h" />
+    <ClInclude Include="GameValues.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Papyrus.h" />
+    <ClInclude Include="StringHelper.h" />
+    <ClInclude Include="Values.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\IDataStream.cpp" />
+    <ClCompile Include="..\..\common\IDebugLog.cpp" />
+    <ClCompile Include="..\..\common\IErrors.cpp" />
+    <ClCompile Include="..\..\common\IFileStream.cpp" />
+    <ClCompile Include="..\skse\GameAPI.cpp" />
+    <ClCompile Include="..\skse\GameBSExtraData.cpp" />
+    <ClCompile Include="..\skse\GameCamera.cpp" />
+    <ClCompile Include="..\skse\GameData.cpp" />
+    <ClCompile Include="..\skse\GameEvents.cpp" />
+    <ClCompile Include="..\skse\GameExtraData.cpp" />
+    <ClCompile Include="..\skse\GameFormComponents.cpp" />
+    <ClCompile Include="..\skse\GameForms.cpp" />
+    <ClCompile Include="..\skse\GameHandlers.cpp" />
+    <ClCompile Include="..\skse\GameMenus.cpp" />
+    <ClCompile Include="..\skse\GameObjects.cpp" />
+    <ClCompile Include="..\skse\GamePathing.cpp" />
+    <ClCompile Include="..\skse\GameReferences.cpp" />
+    <ClCompile Include="..\skse\GameResources.cpp" />
+    <ClCompile Include="..\skse\GameRTTI.cpp" />
+    <ClCompile Include="..\skse\GameSettings.cpp" />
+    <ClCompile Include="..\skse\GameStreams.cpp" />
+    <ClCompile Include="..\skse\GameTypes.cpp" />
+    <ClCompile Include="..\skse\HashUtil.cpp" />
+    <ClCompile Include="..\skse\NiControllers.cpp" />
+    <ClCompile Include="..\skse\NiExtraData.cpp" />
+    <ClCompile Include="..\skse\NiGeometry.cpp" />
+    <ClCompile Include="..\skse\NiInterpolators.cpp" />
+    <ClCompile Include="..\skse\NiMaterial.cpp" />
+    <ClCompile Include="..\skse\NiNodes.cpp" />
+    <ClCompile Include="..\skse\NiObjects.cpp" />
+    <ClCompile Include="..\skse\NiProperties.cpp" />
+    <ClCompile Include="..\skse\NiRenderer.cpp" />
+    <ClCompile Include="..\skse\NiRTTI.cpp" />
+    <ClCompile Include="..\skse\NiSerialization.cpp" />
+    <ClCompile Include="..\skse\NiTextures.cpp" />
+    <ClCompile Include="..\skse\NiTypes.cpp" />
+    <ClCompile Include="..\skse\PapyrusArgs.cpp" />
+    <ClCompile Include="..\skse\PapyrusNativeFunctions.cpp" />
+    <ClCompile Include="..\skse\PapyrusVM.cpp" />
+    <ClCompile Include="..\skse\ScaleformAPI.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

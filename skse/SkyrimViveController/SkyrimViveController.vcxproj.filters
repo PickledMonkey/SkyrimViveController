@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="skse">
+      <UniqueIdentifier>{5d250171-76b0-4669-8d5f-182fedbbe0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skse\api">
+      <UniqueIdentifier>{8dfb63af-754a-4ed8-a354-6cfb5cc002d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skse\scaleform">
+      <UniqueIdentifier>{78a51f93-2fca-46a6-93be-91adbc5d701c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{5e7c238d-9df1-4b20-b85c-b19e6ef01c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skse\papyrus">
+      <UniqueIdentifier>{8391d816-7338-421e-a041-986b7783c29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\handlers">
+      <UniqueIdentifier>{1cf1039f-b578-46be-9a50-920f9d3436ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers">
+      <UniqueIdentifier>{936dc139-eac1-4b2a-8365-0e459b940bf8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyrimPlayerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyrimPlayerStateController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyrimViveController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse\ScaleformAPI.h">
+      <Filter>skse\scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse\ScaleformCallbacks.h">
+      <Filter>skse\scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="VivePlayerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyrimInputInjector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenVRMathHelps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VivePapyrusInjector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VivePositionHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="OutsideMenuUIHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMovementHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockingHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="HandStateHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="OneHandWeaponHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SkyrimViveController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyrimPlayerState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyrimPlayerStateController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameAPI.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\ScaleformAPI.cpp">
+      <Filter>skse\scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\ScaleformCallbacks.cpp">
+      <Filter>skse\scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameObjects.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameReferences.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameEvents.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameForms.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\Utilities.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiObjects.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameBSExtraData.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameCamera.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameData.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameExtraData.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameFormComponents.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameHandlers.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameInput.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameMenus.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GamePathing.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameResources.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameRTTI.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameSettings.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameStreams.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameThreads.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\GameTypes.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IArchive.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IBufferStream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IConsole.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDatabase.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDataStream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDebugLog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDirectoryIterator.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IDynamicCreate.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IErrors.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IEvent.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IFIFO.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IFileStream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IInterlockedLong.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IMemPool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IMutex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IPipeClient.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IPipeServer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IPrefix.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IRangeMap.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IReadWriteLock.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ISegmentStream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ISingleton.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ITextParser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\IThread.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ITypes.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusArgs.cpp">
+      <Filter>skse\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusNativeFunctions.cpp">
+      <Filter>skse\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusVM.cpp">
+      <Filter>skse\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\HashUtil.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiExtraData.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\NiNodes.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\Hooks_Threads.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\SafeWrite.cpp">
+      <Filter>skse\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse\PapyrusActor.cpp">
+      <Filter>skse\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyrimInputInjector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenVRMathHelps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VivePapyrusInjector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VivePositionHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="OutsideMenuUIHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMovementHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockingHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="HandStateHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="OneHandWeaponHandler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
